@@ -1,0 +1,27 @@
+/* Shadows (from mdl http://www.getmdl.io/) */
+.toast-container > div {
+  opacity: 0.9;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  filter: alpha(opacity=90);
+  border-radius: 0.35rem;
+  border: none;
+  box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11); }
+
+.toast-top-full-width > div,
+.toast-bottom-full-width > div {
+  max-width: 100%; }
+
+.toast {
+  background-color: #975AFF; }
+
+.toast-success {
+  background-color: #40C057; }
+
+.toast-error {
+  background-color: #F55252; }
+
+.toast-info {
+  background-color: #2F8BE6; }
+
+.toast-warning {
+  background-color: #F77E17; }

@@ -1,0 +1,10 @@
+.apexcharts-tooltip,
+.apexcharts-xaxistooltip,
+.apexcharts-yaxistooltip {
+  color: #342E49 !important; }
+
+.apexcharts-toolbar [class*=apexcharts-] svg {
+  fill: #BDBDBD; }
+
+.apexcharts-toolbar [class*=apexcharts-]:hover svg {
+  fill: #BDBDBD !important; }

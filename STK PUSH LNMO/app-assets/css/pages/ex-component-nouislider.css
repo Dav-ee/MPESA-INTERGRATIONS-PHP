@@ -1,0 +1,113 @@
+.noUi-target {
+  background-color: #e9e9ec;
+  border: none;
+  box-shadow: none;
+  border-radius: 1rem; }
+
+.noUi-horizontal {
+  height: 10px;
+  padding-right: 1.2rem;
+  margin: 0.5rem 0 3.5rem; }
+  .noUi-horizontal .noUi-handle {
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    left: auto; }
+  .noUi-horizontal .noUi-pips-horizontal {
+    left: 7px;
+    width: calc(100% - 1rem); }
+  .noUi-horizontal.slider-xl {
+    height: 14px; }
+    .noUi-horizontal.slider-xl .noUi-handle {
+      width: 28px;
+      height: 28px;
+      top: -7px; }
+  .noUi-horizontal.slider-lg {
+    height: 12px; }
+    .noUi-horizontal.slider-lg .noUi-handle {
+      width: 24px;
+      height: 24px;
+      top: -6px; }
+  .noUi-horizontal.slider-sm {
+    height: 6px; }
+    .noUi-horizontal.slider-sm .noUi-handle {
+      top: -7px; }
+  .noUi-horizontal.slider-xs {
+    height: 3px; }
+    .noUi-horizontal.slider-xs .noUi-handle {
+      top: -8px; }
+
+.noUi-handle {
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #975AFF !important; }
+  .noUi-handle:after, .noUi-handle:before {
+    display: none; }
+
+.circle-filled .noUi-handle {
+  background: #975AFF; }
+
+.square .noUi-handle {
+  background: #975AFF;
+  border-radius: 3px; }
+  .square .noUi-handle:before {
+    display: block;
+    width: 2px;
+    height: 10px;
+    left: 2px;
+    top: 0px; }
+  .square .noUi-handle:after {
+    display: block;
+    width: 2px;
+    height: 10px;
+    left: 7px;
+    top: 0px; }
+
+.square.slider-xl .noUi-handle:before {
+  left: 5px;
+  top: 4px; }
+
+.square.slider-xl .noUi-handle:after {
+  left: 10px;
+  top: 4px; }
+
+.square.slider-lg .noUi-handle:before {
+  left: 3px;
+  top: 2px; }
+
+.square.slider-lg .noUi-handle:after {
+  left: 8px;
+  top: 2px; }
+
+.noUi-connect {
+  background: #975AFF;
+  box-shadow: none;
+  border-radius: 1rem; }
+
+.noUi-vertical {
+  display: inline-block;
+  width: 8px;
+  height: 150px; }
+  .noUi-vertical .noUi-handle {
+    width: 20px;
+    height: 20px;
+    top: -5px; }
+  .noUi-vertical .noUi-tooltip {
+    margin-right: 0.2rem; }
+  .noUi-vertical.square .noUi-handle {
+    background: #975AFF;
+    border-radius: 3px; }
+    .noUi-vertical.square .noUi-handle:before {
+      display: block;
+      width: 12px;
+      height: 2px;
+      left: -1px;
+      top: 2px; }
+    .noUi-vertical.square .noUi-handle:after {
+      display: block;
+      width: 12px;
+      height: 2px;
+      left: -1px;
+      top: 7px; }

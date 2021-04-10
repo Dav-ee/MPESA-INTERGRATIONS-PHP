@@ -1,0 +1,27 @@
+/* Shadows (from mdl http://www.getmdl.io/) */
+.context-menu-list {
+  border-radius: 0.35rem;
+  box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11);
+  border-color: #E0E0E0; }
+  .context-menu-list .context-menu-item {
+    padding: 0.6rem 2rem; }
+    .context-menu-list .context-menu-item:hover {
+      background-color: #F7F7F8 !important;
+      color: inherit; }
+    .context-menu-list .context-menu-item.context-menu-hover {
+      background-color: #975AFF; }
+  .context-menu-list .context-menu-submenu:after {
+    right: 1.2rem; }
+
+.idleTimer .alert-success {
+  background-color: #E0FBDA !important;
+  border-color: #6CD975 !important;
+  color: #40C057 !important; }
+
+.idleTimer .alert-warning {
+  background-color: #FEEFD0 !important;
+  border-color: #FAA750 !important;
+  color: #F77E17 !important; }
+
+.numeral-js-wrapper .table thead tr th {
+  border-top: none; }

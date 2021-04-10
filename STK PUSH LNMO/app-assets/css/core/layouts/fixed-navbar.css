@@ -1,0 +1,20 @@
+/* Shadows (from mdl http://www.getmdl.io/) */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 4;
+  background-color: #fff;
+  box-shadow: -8px 8px 14px 0 rgba(25, 42, 70, 0.11); }
+
+.app-sidebar {
+  z-index: 5; }
+
+.main-panel {
+  margin-top: 87.5px; }
+
+.layout-dark.layout-transparent .navbar,
+.layout-dark .navbar {
+  background-color: #101010;
+  box-shadow: 0 6px 0px 0 rgba(0, 0, 0, 0.1), 0 15px 32px 0 rgba(0, 0, 0, 0.06); }

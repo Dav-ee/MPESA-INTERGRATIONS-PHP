@@ -1,0 +1,45 @@
+.dropzone {
+  min-height: 300px;
+  border: 2px dashed #975AFF;
+  background: #F7F7F8; }
+  .dropzone .dz-message {
+    font-size: 2rem;
+    position: absolute;
+    left: 1.67rem;
+    width: calc(100% - 3.3rem);
+    height: 150px;
+    color: #975AFF;
+    text-align: center; }
+  .dropzone .dz-message:before {
+    content: "\e864";
+    font-family: "feather";
+    font-size: 4rem;
+    position: absolute;
+    top: 70px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    left: 50%;
+    margin-left: -40px;
+    line-height: 1;
+    z-index: 2;
+    color: #975AFF;
+    -webkit-font-smoothing: antialiased; }
+  .dropzone .dz-preview.dz-image-preview {
+    background: transparent; }
+  .dropzone .dz-preview .dz-remove {
+    font-size: 1.1rem;
+    color: #F55252;
+    line-height: 2rem; }
+    .dropzone .dz-preview .dz-remove:before {
+      content: "\e8f6";
+      font-family: "feather";
+      display: inline-block;
+      line-height: 1;
+      z-index: 2;
+      text-indent: 0px;
+      font-weight: normal;
+      -webkit-font-smoothing: antialiased; }
+    .dropzone .dz-preview .dz-remove:hover {
+      text-decoration: none;
+      color: #F55252; }

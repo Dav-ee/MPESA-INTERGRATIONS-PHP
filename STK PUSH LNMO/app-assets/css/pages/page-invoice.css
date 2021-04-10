@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+  .signature img {
+    width: 180px; } }
+
+@media print {
+  .content-header,
+  .btn-print,
+  .footer,
+  .open,
+  .app-sidebar,
+  .navbar.header-navbar,
+  .customizer-toggle,
+  .buy-now,
+  .scroll-top,
+  .notification-sidebar {
+    display: none !important; }
+  #invoice-template {
+    padding-top: 0; }
+  #invoice-template,
+  .main-content,
+  .content-wrapper,
+  .navbar.header-navbar {
+    margin: 0 !important;
+    padding: 0 !important; }
+  .invoice-template .card-content {
+    margin: 0 !important;
+    padding: 0 !important; }
+  #invoice-footer {
+    position: relative;
+    top: -80px !important; }
+  .table-responsive {
+    -ms-overflow-style: none; }
+  .terms-conditions {
+    margin-top: 6rem; }
+  .signature {
+    margin-top: 7rem; } }
+
+@page {
+  margin-bottom: 25px;
+  margin-top: 25px; }

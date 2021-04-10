@@ -1,0 +1,71 @@
+@media (max-width: 991.98px) {
+  .kb-wrapper .kb-search .kb-search-input {
+    width: 75% !important; } }
+
+@media (max-width: 575.98px) {
+  .kb-wrapper .kb-search .kb-search-input {
+    width: 100% !important; } }
+
+.kb-wrapper .kb-search .kb-search-input input {
+  background-color: #fff; }
+
+.kb-wrapper .kb-search .kb-search-input button {
+  right: 0.4rem;
+  top: 0.3rem; }
+  @media (max-width: 575.98px) {
+    .kb-wrapper .kb-search .kb-search-input button {
+      padding: 0.65rem 1.25rem; } }
+
+.kb-wrapper .kb-content .kb-content-info i {
+  font-size: 2.3rem; }
+
+.kb-categories .kb-ellipsis, .kb-question .kb-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.kb-categories .kb-effect, .kb-question .kb-effect {
+  transition: all 0.3s ease; }
+  .kb-categories .kb-effect:hover, .kb-question .kb-effect:hover {
+    color: #975AFF !important;
+    margin-left: 0.5rem; }
+
+.kb-categories .kb-categories-text, .kb-question .kb-categories-text {
+  color: #6c757d; }
+
+@media (max-width: 767.98px) {
+  .kb-categories .kb-sidebar, .kb-question .kb-sidebar {
+    height: 100vh;
+    width: 260px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateX(-115%);
+    transition: all .3s ease;
+    z-index: 12;
+    left: 1rem;
+    top: 0;
+    padding: 1.1rem 0 0 1.2rem; }
+    .kb-categories .kb-sidebar.show, .kb-question .kb-sidebar.show {
+      transform: translateX(0%); }
+    .kb-categories .kb-sidebar .kb-close-icon, .kb-question .kb-sidebar .kb-close-icon {
+      position: absolute;
+      top: 0.9rem;
+      right: 0.9rem; }
+  .kb-categories .kb-overlay, .kb-question .kb-overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 11;
+    visibility: hidden; }
+    .kb-categories .kb-overlay.show, .kb-question .kb-overlay.show {
+      visibility: visible;
+      transition: all .3s ease;
+      background-color: rgba(0, 0, 0, 0.6); } }
+
+@media (max-width: 575.98px) {
+  .kb-categories .kb-sidebar, .kb-question .kb-sidebar {
+    width: 250px; } }

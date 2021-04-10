@@ -1,0 +1,21 @@
+.dragdrop-container > div {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  transition: opacity 0.4s ease-in-out; }
+
+.dragdrop-container:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.dragdrop-container .users-list li {
+  line-height: 1.5; }
+  .dragdrop-container .users-list li img {
+    border: 2px solid #fff; }
+  .dragdrop-container .users-list li + li {
+    margin-left: -0.4rem; }
+
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  transition: opacity 0.4s ease-in-out; }

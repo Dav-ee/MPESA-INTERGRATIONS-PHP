@@ -1,0 +1,58 @@
+.page-user-profile .user-profile-images {
+  position: relative; }
+  .page-user-profile .user-profile-images .user-timeline-image {
+    min-height: 150px;
+    object-fit: cover; }
+  .page-user-profile .user-profile-images .user-profile-image {
+    position: absolute;
+    left: 20px;
+    bottom: -65px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.41); }
+
+.page-user-profile .user-profile-text {
+  position: absolute;
+  bottom: 105px;
+  left: 190px;
+  color: #fff; }
+  .page-user-profile .user-profile-text .profile-text-color {
+    color: #fff; }
+
+.page-user-profile .user-profile-buttons {
+  padding-left: 11.25rem; }
+
+.page-user-profile .profile-info-posts .profile-post .profile-post-img {
+  max-height: 300px;
+  object-fit: cover; }
+
+.page-user-profile .user-profile-stories-image {
+  max-height: 300px; }
+
+.page-user-profile .user-profile-stories.swiper-container .swiper-slide {
+  width: auto !important;
+  cursor: pointer; }
+  .page-user-profile .user-profile-stories.swiper-container .swiper-slide .user-swiper-text {
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 10px; }
+
+@media (max-width: 576px) {
+  .user-profile-images .user-profile-image {
+    height: 100px;
+    width: 100px;
+    top: 40%;
+    left: 50% !important;
+    margin-left: -45px;
+    margin-top: 30px; }
+  .user-profile-text {
+    top: 50%;
+    left: 50% !important;
+    margin-left: -60px;
+    margin-top: 3rem;
+    color: #17102F !important;
+    text-align: center !important; }
+    .user-profile-text .profile-text-color {
+      color: #17102F !important; }
+  .user-profile-buttons {
+    padding-left: 0 !important;
+    padding-top: 6rem; } }

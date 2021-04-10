@@ -1,0 +1,107 @@
+.ct-grid {
+  stroke-dasharray: 0px;
+  stroke: rgba(0, 0, 0, 0.1); }
+
+.ct-label {
+  font-size: 0.9rem; }
+
+.lineArea1 .ct-series-a .ct-area {
+  fill-opacity: 0.3;
+  fill: #975AFF; }
+
+.lineArea1 .ct-series-b .ct-area {
+  fill: #975AFF;
+  fill-opacity: 0.6; }
+
+.lineArea1 .ct-line {
+  stroke-width: 0px; }
+
+.lineArea1 .ct-point {
+  stroke-width: 0px; }
+
+.lineArea2 .ct-series-a .ct-area {
+  fill-opacity: 0.2;
+  fill: url(#gradient1) !important; }
+
+.lineArea2 .ct-series-a .ct-line,
+.lineArea2 .ct-series-a .ct-point-circle {
+  stroke: #2F8BE6; }
+
+.lineArea2 .ct-series-b .ct-area {
+  fill: url(#gradient2) !important;
+  fill-opacity: 0.2; }
+
+.lineArea2 .ct-series-b .ct-line,
+.lineArea2 .ct-series-b .ct-point-circle {
+  stroke: #F77E17; }
+
+.lineArea2 .ct-point-circle {
+  stroke-width: 2px;
+  fill: #fff; }
+
+.lineArea2 .ct-line {
+  fill: none;
+  stroke-width: 1px; }
+
+.lineArea3 .ct-series-a .ct-area {
+  fill-opacity: 0.2;
+  fill: url(#gradient) !important; }
+
+.lineArea3 .ct-series-a .ct-line,
+.lineArea3 .ct-series-a .ct-point-circle {
+  stroke: #2F8BE6; }
+
+.lineArea3 .ct-series-b .ct-area {
+  fill: #F77E17;
+  fill-opacity: 0.1; }
+
+.lineArea3 .ct-series-b .ct-line,
+.lineArea3 .ct-series-b .ct-point-circle {
+  stroke: #F77E17; }
+
+.lineArea3 .ct-point-circle {
+  stroke-width: 2px;
+  fill: #fff; }
+
+.lineArea3 .ct-line {
+  fill: none;
+  stroke-width: 1px; }
+
+.lineChart1 {
+  filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3));
+  /* Same syntax as box-shadow, except for the spread property */
+  -webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3)); }
+  .lineChart1 .ct-series-b .ct-line {
+    stroke: #40C057; }
+  .lineChart1 .ct-line {
+    stroke-width: 3px; }
+  .lineChart1 .ct-point {
+    stroke-width: 0px; }
+
+.lineChart2 .ct-point-circle {
+  stroke-width: 2px;
+  fill: #fff; }
+
+.lineChart2 .ct-series-a .ct-point-circle,
+.lineChart2 .ct-series-a .ct-line {
+  stroke: #2F8BE6; }
+
+.lineChart2 .ct-series-b .ct-point-circle,
+.lineChart2 .ct-series-b .ct-line {
+  stroke: #F77E17; }
+
+.lineChart2 .ct-line {
+  fill: none;
+  stroke-width: 1px; }
+
+.bi-polar-chart .ct-series-a .ct-area {
+  fill: #975AFF; }
+
+.bi-polar-chart .ct-series-b .ct-area {
+  fill: #F77E17; }
+
+.bi-polar-chart .ct-series-c .ct-area {
+  fill: #40C057; }
+
+.bi-polar-chart .ct-series-d .ct-area {
+  fill: #F55252; }

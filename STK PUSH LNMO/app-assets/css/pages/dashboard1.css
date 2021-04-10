@@ -1,0 +1,134 @@
+.ct-grid {
+  stroke-dasharray: 0px;
+  stroke: rgba(0, 0, 0, 0.1); }
+
+.ct-label {
+  font-size: 0.9rem; }
+
+.WidgetlineChart .ct-point {
+  stroke-width: 0px; }
+
+.WidgetlineChart .ct-line {
+  stroke: rgba(255, 255, 255, 0.6); }
+
+.WidgetlineChart .ct-grid {
+  stroke-dasharray: 0px;
+  stroke: transparent !important; }
+
+.WidgetlineChartshadow {
+  -webkit-filter: drop-shadow(0px 13px 6px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 13px 6px rgba(0, 0, 0, 0.5));
+  /* Same syntax as box-shadow, except for the spread property */ }
+
+.lineArea .ct-line {
+  stroke-width: 0px; }
+
+.lineArea .ct-point {
+  stroke-width: 0px; }
+
+.lineArea .ct-series-a .ct-area {
+  fill-opacity: 0.7;
+  fill: url(#gradient1) !important; }
+
+.lineArea .ct-series-b .ct-area {
+  fill: url(#gradient) !important;
+  fill-opacity: 0.9; }
+
+.Stackbarchart .ct-series-a .ct-bar {
+  stroke: url(#linear) !important; }
+
+.Stackbarchart .ct-series-b .ct-bar {
+  stroke: #eee; }
+
+.shopping-cart i.ft-trash-2 {
+  cursor: pointer; }
+  .shopping-cart i.ft-trash-2:hover {
+    color: #F55252; }
+
+.shopping-cart table td {
+  vertical-align: middle; }
+
+.lineAreaDashboard .ct-line {
+  fill: none;
+  stroke-width: 2px; }
+
+.lineAreaDashboard .ct-point-circle {
+  stroke-width: 2px;
+  fill: #fff; }
+
+.lineAreaDashboard .ct-series-a .ct-area {
+  fill: url(#gradient2) !important;
+  fill-opacity: 0.8; }
+
+.lineAreaDashboard .ct-series-a .ct-line {
+  stroke: #60AFF0; }
+
+.lineAreaDashboard .ct-series-a .ct-point-circle {
+  stroke: #2F8BE6; }
+
+.lineAreaDashboard .ct-series-b .ct-area {
+  fill: url(#gradient3) !important;
+  fill-opacity: 0.8; }
+
+.lineAreaDashboard .ct-series-b .ct-line {
+  stroke: #6CD975; }
+
+.lineAreaDashboard .ct-series-b .ct-point-circle {
+  stroke: #40C057; }
+
+.lineChart .ct-line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px; }
+
+.lineChart .ct-label {
+  color: #fff; }
+
+.lineChart .ct-point-circle {
+  stroke-width: 2px;
+  fill: #fff; }
+
+.lineChart .ct-series-a .ct-point-circle,
+.lineChart .ct-series-a .ct-point {
+  stroke: #fff; }
+
+.lineChartShadow {
+  -webkit-filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.5));
+  /* Same syntax as box-shadow, except for the spread property */ }
+
+.BarChart .ct-series-a .ct-bar:nth-of-type(4n+1) {
+  stroke: url(#gradient7); }
+
+.BarChart .ct-series-a .ct-bar:nth-of-type(4n+2) {
+  stroke: url(#gradient5); }
+
+.BarChart .ct-series-a .ct-bar:nth-of-type(4n+3) {
+  stroke: url(#gradient6); }
+
+.BarChart .ct-series-a .ct-bar:nth-of-type(4n+4) {
+  stroke: url(#gradient4); }
+
+.BarChartShadow {
+  -webkit-filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.3));
+  /* Same syntax as box-shadow, except for the spread property */ }
+
+.donut .ct-label {
+  font-size: 20px; }
+
+.donut .ct-done .ct-slice-donut {
+  stroke: #40C057;
+  stroke-width: 24px !important; }
+
+.donut .ct-progress .ct-slice-donut {
+  stroke: #F77E17;
+  stroke-width: 16px !important; }
+
+.donut .ct-outstanding .ct-slice-donut {
+  stroke: #975AFF;
+  stroke-width: 8px !important; }
+
+.donut .ct-started .ct-slice-donut {
+  stroke: #2F8BE6;
+  stroke-width: 32px !important; }
