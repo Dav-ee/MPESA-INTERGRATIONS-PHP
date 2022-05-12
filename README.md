@@ -1,3 +1,2 @@
 # Daraja-API-s-integration-PHP
-M-PESA Integration ~ PHP
-Final working version.
+PHP M-PESA DARAJA API Integration . For C2B, B2C and STK PUSH integration to your business. Fully tested, working and easy to integrate.
