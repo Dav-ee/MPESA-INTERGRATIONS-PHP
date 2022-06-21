@@ -61,9 +61,6 @@ function getAccessToken(){
        curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
        $curl_response = curl_exec($curl);
       echo $curl_response;
-                         echo '  <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <span class="alert-text"><strong>STK PUSH INITIATED</strong></span>
-              </div>';
    }
 
 ?>

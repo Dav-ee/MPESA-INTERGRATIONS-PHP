@@ -11,41 +11,7 @@ $php_date=  date('d/m/Y/H:i:s');
     $balance;
     $transactionDate;
     $phone;
-                    
-//     $var = '
-//     {
-//   "Body": {
-//     "stkCallback": {
-//       "MerchantRequestID": "9234-58037451-1",
-//       "CheckoutRequestID": "ws_CO_110820211501493318",
-//       "ResultCode": 0,
-//       "ResultDesc": "The service request is processed successfully.",
-//       "CallbackMetadata": {
-//         "Item": [
-//           {
-//             "Name": "Amount",
-//             "Value": 1.00
-//           },
-//           {
-//             "Name": "MpesaReceiptNumber",
-//             "Value": "PHB5HAX915"
-//           },
-//           {
-//             "Name": "Balance"
-//           },
-//           {
-//             "Name": "TransactionDate",
-//             "Value": 20210811150205
-//           },
-//           {
-//             "Name": "PhoneNumber",
-//             "Value": 254706373252
-//           }
-//         ]
-//       }
-//     }
-//   }
-// }';      
+                         
                 
 $datass= $decodedResponce;
 //$datass = json_decode($var);

@@ -42,7 +42,7 @@ function getAccessToken(){
             'PartyA' => $phone,
             'PartyB' => ##,
             'PhoneNumber' => $phone,
-            'CallBackURL' => 'https://validdomainpath/depositCallback.php',
+            'CallBackURL' => 'https://valid_domain_path/depositCallback.php',
             'AccountReference' => "DEPOSIT",
             'TransactionDesc' => "stk"
         ];
@@ -55,11 +55,6 @@ function getAccessToken(){
        curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
        $curl_response = curl_exec($curl);
       echo $curl_response;
-      
-   // echo '  <div class="alert alert-success alert-dismissible alert-label-icon label-arrow fade show" role="alert">
-   //                                          <i class="mdi mdi-check-all label-icon"></i><strong>Success!</strong> STK initiated successfully.
-   //                                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-   //                                      </div>'; 
    }
 
 ?>

@@ -16,7 +16,7 @@ $headers=['Content-Type:application/json; charset-utf8'];
  $access_token= $result->access_token;
 
 
-  $url = 'https://api.safaricom.co.ke/mpesa/c2b/v1/registerurl';  
+  $url = 'https://api.safaricom.co.ke/mpesa/c2b/v2/registerurl';  
   $curl = curl_init();
   curl_setopt($curl, CURLOPT_URL, $url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'Authorization:Bearer '.$access_token)); //setting custom header  
@@ -24,8 +24,8 @@ $headers=['Content-Type:application/json; charset-utf8'];
     //Fill in the request parameters with valid values
     'ShortCode' => '##',
     'ResponseType' => 'Completed',
-    'ConfirmationURL' => 'https://validdomainpath/confirmation_url.php',
-    'ValidationURL' => 'https://validdomainpath/validation_url.php'
+    'ConfirmationURL' => 'https://valid_domain_path/confirmation_url.php',
+    'ValidationURL' => 'https://valid_domain_path/validation_url.php'
   );
   $data_string = json_encode($curl_post_data);
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
