@@ -15,7 +15,7 @@ function lipaNaMpesaPassword()
     $timestamp = Carbon::rawParse('now')->format('YmdHms');
     //input your passkey
     $passKey =" ";
-    $businessShortCOde = 7609940;
+    $businessShortCOde = ;
     //generate password
     $mpesaPassword = base64_encode($businessShortCOde.$passKey.$timestamp);
     return $mpesaPassword;
@@ -24,7 +24,7 @@ function getAccessToken(){
     // enter your secret keys here
   $consumerKey = '';
   $consumerSecret = '';
-  $url = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
+  $url = 'https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';  // for production 
   $curl = curl_init();
   $credentials = base64_encode($consumerKey.":".$consumerSecret);
   curl_setopt($curl, CURLOPT_URL, $url);
@@ -40,15 +40,15 @@ function getAccessToken(){
    {
        $url = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest'; // for production
        $curl_post_data = [
-            'BusinessShortCode' => 7609940, // head office / store number
+            'BusinessShortCode' => , // head office / store number
             'Password' => lipaNaMpesaPassword(),
             'Timestamp' => Carbon::rawParse('now')->format('YmdHms'),
-            'TransactionType' => 'CustomerBuyGoodsOnline', // note this
+            'TransactionType' => 'CustomerBuyGoodsOnline', // note this don't alter
             'Amount' => $userAmt,
             'PartyA' => $phone,
             'PartyB' => , // till number
             'PhoneNumber' => $phone,
-            'CallBackURL' => '',
+            'CallBackURL' => './callback_url.php?phone='.$phone , // link to callback url
             'AccountReference' => "DEPOSIT", // use 1 word preferably
             'TransactionDesc' => "stk"
         ];
